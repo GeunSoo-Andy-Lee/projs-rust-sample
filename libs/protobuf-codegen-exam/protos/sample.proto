@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package sample.test;
+
+enum Shape {
+  UNKNOWN = 0;
+  CIRCLE = 1;
+  SQUARE = 2;
+}
+
+message Fruit {
+  string name = 1;
+  float weight = 2;
+  Shape shape = 3;
+}
+
