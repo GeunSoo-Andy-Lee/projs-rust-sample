@@ -5,4 +5,3 @@ package sample.test;
 message Segment {
   string name = 1;
 }
-

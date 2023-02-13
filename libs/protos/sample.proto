@@ -1,9 +1,11 @@
 syntax = "proto3";
 
+package sample;
+
 enum Shape {
   UNKNOWN = 0;
   CIRCLE = 1;
-  SQUARE = 2;
+  SQUARE = 3;
 }
 
 message Fruit {
@@ -11,4 +13,3 @@ message Fruit {
   float weight = 2;
   Shape shape = 3;
 }
-

@@ -1,6 +1,6 @@
 [workspace]
 members = [
-    "libs/prost-exam",
-    "libs/protobuf-codegen-exam",
-    "libs/protobuf-pure-exam",
+    "libs/build-utils",
+    "libs/msg-prost",
+    "apps/sample"
 ]
